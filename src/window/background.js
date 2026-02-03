@@ -1,0 +1,8 @@
+chrome.action.onClicked.addListener((tab) => {
+    chrome.windows.update(tab.windowId, {
+        width: 1024,
+        height: 768,
+        left: 0,
+        top: 0
+    });
+});

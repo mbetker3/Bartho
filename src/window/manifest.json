@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "description": "Testing Chrome Extension",
     "manifest_version": 3,
+    "permissions": ["system.display", "tabs"],
+    "background": {
+        "service_worker": "background.js"
+    },
     "author": "Toni Faiyaz & M. Bartho",
     "action":{
         "default_popup": "index.html",
