@@ -1,0 +1,11 @@
+{
+    "name": "Bartho",
+    "version": "1.0.0",
+    "description": "Testing Chrome Extension",
+    "manifest_version": 3,
+    "author": "Toni Faiyaz & M. Bartho",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Bartho Extension"
+    }
+}

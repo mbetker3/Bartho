@@ -1,0 +1,26 @@
+body {
+    background-color: #f0ebd8;
+}
+
+.headerOne {
+    font-family: 'Arial Black', sans-serif;
+    color: #748cab;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.uploadButton {
+    display: block;
+    margin: 50px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #748cab;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.uploadButton:hover {
+    background-color: #5a6d81;
+}
