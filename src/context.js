@@ -1,5 +1,5 @@
 function getContext(el) {
-    return (el?.innerText || "").replace(/\n{3, }/g, "\n\n").trim();
+    return (el?.innerText || "").replace(/\n{3,}/g, "\n\n").trim();
 }
 
 function setRowContext(table) {
@@ -26,4 +26,5 @@ function extractProblems(){
     return {url: location.href, title: document.title, problems: uniqueProblems};
 }
 
-window.__WA__EXTRACT__ = extractProblems();
+
+window.__WA__EXTRACT__ = extractProblems
